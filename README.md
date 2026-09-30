@@ -4,11 +4,11 @@ Jogo de cartas **Burro** para 2 a 5 jogadores, feito em **Vue 3 + Ionic + Capaci
 
 ## Identificação da atividade
 
-- **Curso:** _(preencher: nome do curso)_
+- **Curso:** Informática para Internet
 - **Unidades curriculares e indicadores**
   - **Codificar acesso à web services e recursos de sistemas móveis**
     - Integra recursos nativos do dispositivo, de acordo com as necessidades do aplicativo e as características do sistema mobile. → Bluetooth LE (central e peripheral), permissões em tempo de execução, vibração (Haptics), Preferences.
-    - Aplica correções e melhorias a partir da validação e depuração do código de integração dos webservices, conforme necessidades do projeto. → O documento de requisitos exige funcionamento offline e não define API; a validação e depuração foram aplicadas à camada de integração Bluetooth (protocolo, fragmentação, reconexão). _(confirmar com o professor)_
+    - Aplica correções e melhorias a partir da validação e depuração do código de integração dos webservices, conforme necessidades do projeto. → O documento de requisitos exige funcionamento offline e não define API; a validação e depuração foram aplicadas à camada de integração Bluetooth (protocolo, fragmentação, reconexão). _
   - **Codificar aplicações para dispositivos móveis**
     - Aplica recursos da biblioteca do sistema mobile de acordo com necessidades do aplicativo. → Ionic Vue (páginas, alertas, toasts, roteamento), Capacitor.
     - Programa persistência local de dados utilizando arquivos e banco de dados portáveis de acordo com as necessidades do sistema. → SQLite (histórico) e Preferences (perfil).
@@ -16,9 +16,9 @@ Jogo de cartas **Burro** para 2 a 5 jogadores, feito em **Vue 3 + Ionic + Capaci
 
 | Nome | GitHub |
 |---|---|
-| _Integrante 1_ | https://github.com/usuario1 |
-| _Integrante 2_ | https://github.com/usuario2 |
-| _Integrante 3_ | https://github.com/usuario3 |
+| Mario | https://github.com/mario2230 |
+| João | https://github.com/ThiagoLuz2 |
+| Thiago | https://github.com/Bugadu2 |
 
 ## Como o jogo funciona
 
