@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Burro Bluetooth</string>
+    <string name="title_activity_main">Burro Bluetooth</string>
+    <string name="package_name">br.senai.burro</string>
+    <string name="custom_url_scheme">br.senai.burro</string>
+</resources>

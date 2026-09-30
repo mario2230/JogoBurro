@@ -1,0 +1,81 @@
+/* Tema: mesa de feltro verde, cartas claras, detalhe mostarda. Só fontes do sistema (funciona offline). */
+:root {
+  --feltro: #0f3d2e;
+  --feltro-claro: #17523f;
+  --feltro-escuro: #0a2a20;
+  --carta: #fbf8f1;
+  --tinta: #1b1b1b;
+  --vermelho: #c8382e;
+  --mostarda: #f2b705;
+  --texto: #f1efe6;
+  --texto-suave: #b8cfc4;
+
+  --ion-font-family: 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif;
+  --ion-background-color: var(--feltro);
+  --ion-background-color-rgb: 15, 61, 46;
+  --ion-text-color: var(--texto);
+  --ion-text-color-rgb: 241, 239, 230;
+  --ion-toolbar-background: var(--feltro-escuro);
+  --ion-toolbar-color: var(--texto);
+  --ion-item-background: var(--feltro-claro);
+  --ion-card-background: var(--feltro-claro);
+  --ion-color-primary: #f2b705;
+  --ion-color-primary-rgb: 242, 183, 5;
+  --ion-color-primary-contrast: #1b1b1b;
+  --ion-color-primary-contrast-rgb: 27, 27, 27;
+  --ion-color-primary-shade: #d5a104;
+  --ion-color-primary-tint: #f3be1f;
+  --ion-color-danger: #e0574d;
+  --ion-color-danger-rgb: 224, 87, 77;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #c54d44;
+  --ion-color-danger-tint: #e36860;
+}
+
+ion-content::part(background) {
+  background: radial-gradient(ellipse at 50% 0%, var(--feltro-claro), var(--feltro) 60%);
+}
+
+.pagina {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.titulo-grande {
+  font-size: 2.6rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin: 8px 0 4px;
+}
+.suave {
+  color: var(--texto-suave);
+}
+.cartao {
+  background: var(--feltro-escuro);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 14px;
+  margin: 12px 0;
+}
+.botao-perigo {
+  color: var(--ion-color-danger) !important;
+}
+ion-button {
+  --border-radius: 12px;
+  min-height: 52px;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 1rem;
+}
+:focus-visible {
+  outline: 3px solid var(--mostarda);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
